@@ -8,7 +8,7 @@ services:
     startCommand: node index.js
     envVars:
       - key: MONGO_URI
-        value: YOUR_MONGODB_ATLAS_URI
+        value: your_mongo_uri
       - key: JWT_SECRET
         value: your_jwt_secret
       - key: PORT
